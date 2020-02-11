@@ -1,0 +1,25 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "note taking app",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eugenemonnier/notes.git"
+  },
+  "author": "Eugene Monnier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eugenemonnier/notes/issues"
+  },
+  "homepage": "https://github.com/eugenemonnier/notes#readme",
+  "dependencies": {
+    "eslint": "^6.8.0",
+    "express": "^4.17.1",
+    "jest": "^25.1.0",
+    "minimist": "^1.2.0"
+  }
+}
