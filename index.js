@@ -1,11 +1,13 @@
 'use strict';
 // dependencies
 const Input = require('./lib/input');
-const noteEntry = require('./lib/notes');
+const Notes = require('./lib/notes');
+
+const input = new Input();
+const notes = new Notes(input);
 
 // validate input and either process if good values else print error message invalid
-const options = new Input();
-options.validate() ? noteEntry.writeOut(options) : help();
+input.validate() ? notes.execute() : help();
 
 // message printed when input isn't valid
 function help() {
