@@ -7,7 +7,7 @@ const input = new Input();
 const notes = new Notes(input);
 
 // validate input and either process if good values else print error message invalid
-input.validate() ? notes.execute() : help();
+input.valid() ? notes.execute(input) : help();
 
 // message printed when input isn't valid
 function help() {
