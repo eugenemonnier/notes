@@ -12,10 +12,9 @@ input.validate() ? notes.execute() : help();
 // message printed when input isn't valid
 function help() {
   console.log(`
-  notes USAGE: notes -add|-a -p '<your note>'
+  notes USAGE: notes -add|-a '<your note>'
 
-    -add | -a - add a note to your notes
-    -p        - 'your note text'
+    --add | -a - add an entry to your notes
   `)
 
   process.exit();
