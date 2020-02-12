@@ -1,4 +1,3 @@
-'use strict';
 // dependencies
 const Input = require('./lib/input');
 const Notes = require('./lib/notes');
@@ -15,7 +14,7 @@ function help() {
   notes USAGE: notes -add|-a '<your note>'
 
     --add | -a - add an entry to your notes
-  `)
+  `);
 
   process.exit();
 }
