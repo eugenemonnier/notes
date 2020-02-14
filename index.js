@@ -22,9 +22,13 @@ function help() {
   notes USAGE: notes 
 
     --add | -a <your note> - add an entry to your notes
-      --category <category> - give your note a category
+      --category <category name> - give your note a category
 
-    --list | -l <optional category> - list all notes | all notes in catefory
+    --list | -l <optional category> - list all notes | list all notes in category
+
+    --update | u <note id> update note. id required plus at least one option
+      --note <note text> - will update the note's text content
+      --category <category name> - will update the note's category
 
     --delete | -d <note id> - delete note by id
   `);
